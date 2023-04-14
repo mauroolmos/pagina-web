@@ -1,0 +1,160 @@
+body{
+    background: linear-gradient(blue,blue,aqua,aqua,white);
+    text-decoration: none;
+    background-repeat: no-repeat;
+}
+
+
+header{
+    position: fixed;
+    z-index: 2000px;
+    top: -10px;
+}
+
+.barra{
+    background-color: rgba(0, 0, 255, 0.705);
+    width: 970px;
+    height: 35px;
+    padding: 25px;
+    margin-left: 250px;
+    position: fixed;
+    z-index: 2000px;
+}
+
+.linkB{
+    background-color: rgba(0, 0, 255, 0.404);
+    color: white;
+    font-size: 20px;
+    width: 210px;
+    height: 150px;
+    padding: 20px;
+    margin: 50px;
+    top: 53px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.linkB:hover{
+    background-color: rgb(0, 200, 255);
+    color: yellow;;
+    border-radius: 15px;
+}
+
+.linkB:active{
+    background-color: antiquewhite;
+    color: brown;
+}
+
+.derecha{
+    background-color: white;
+    border: 2px solid ;
+    width: 330px;
+    height: 780px;
+    display: inline-block;
+    position: fixed;
+    float: left;
+    top: 78px;
+}
+
+.linkm {
+    font-size: 20px;
+    margin: 20px;
+    overflow-y: scroll;
+    width: 300px;
+    height: 750px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+li:hover{
+    background-color: rgb(240, 227, 39);
+    color: teal;
+}
+
+li:active{
+    background-color:aqua ;
+    color: chocolate;
+}
+
+.derecha .linkm{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.centro{
+    float: left;
+    top: 55px;
+    margin-left: 321px;
+}
+
+.cajaT{
+
+    background-color: gray;
+    color: black;
+    width: 840px;
+    height: 1000px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border: 2px solid;
+    display: inline-block;
+    font-size: 20px;
+    top: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.izquierda{
+    background-color: white;
+    border: 2px solid ;
+    width: 360px;
+    height: 780px;
+    display: inline-block;
+    position: fixed;
+    float: left;
+    padding-left: 0px;
+    margin-left: 0px;
+    top: 76px;
+
+}
+
+.foto{
+    width: 170px;
+    height: 170px;
+    padding: 21px;
+    margin-left: 11px;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 10px 8px 18px black;
+}
+.foto:hover{
+    width: 250px;
+    height: 220px;
+    transition: all 0.5s ease;
+}
+
+.foto2{
+    float: left;
+    padding-right: 5px;
+}
+.foto2:hover{
+    width: 320px;
+    height: 230px;
+    transition: all 0.5s ease;
+}
+
+.p{
+    color: rgba(0, 255, 255, 0);
+    top: -30px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+
+
+
